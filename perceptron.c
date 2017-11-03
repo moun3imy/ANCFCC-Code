@@ -34,7 +34,7 @@ int CalculerSortie(float poids[],int x[])
 int main(int argc, const char * argv[]) {
     // insert code here...
     //
-    char* file_path = "/Users/macbookpro/Documents/multics-r63/perceptron/Perceptron/7leds.txt";
+    char* file_path = "path_to_file";
     FILE* fp ;
     if((fp = fopen(file_path,"r"))==NULL){
         printf("Impossible ouvrir le fichier ");
